@@ -4,11 +4,13 @@ import {
   flashcard,
   TicTacToe,
   randomUser,
+  rentCar,
   foodLogo,
   transLogo,
   gameLogo,
   flashLogo,
   userLogo,
+  rentCarLogo,
 } from "../assets/img";
 
 import {
@@ -17,11 +19,13 @@ import {
   flashcardPng,
   TicTacToePng,
   randomUserPng,
+  rentCarPng,
   foodLogoPng,
   transLogoPng,
   gameLogoPng,
   flashLogoPng,
   userLogoPng,
+  rentCarLogoPng,
 } from "../assets/imgPng";
 
 const Eng = {
@@ -116,6 +120,17 @@ const Eng = {
         linkWeb: "https://csikito.github.io/random_user/",
         linkGit: "https://github.com/Csikito/random_user",
         id: 5,
+      },
+      {
+        title: "RENT CAR",
+        description: `Car rental, easier and simpler. Built using React, Tailwind-Css and several npm packages.`,
+        srcImg: rentCar,
+        srcLogo: rentCarLogo,
+        srcImgPng: rentCarPng,
+        srcLogoPng: rentCarLogoPng,
+        linkWeb: "https://csikito.github.io/csr_rentcar/",
+        linkGit: "https://github.com/Csikito/csr_rentcar",
+        id: 6,
       },
     ],
   },

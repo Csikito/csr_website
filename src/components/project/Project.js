@@ -23,7 +23,15 @@ function Project({ content }) {
       <div className="absolute top-0 left-0 w-full h-full bg-white dark:bg-bodyColor bg-opacity-90 dark:bg-opacity-95"></div>
       <div className="max-w-screen-xl mx-auto sticky px-4">
         <div>
-          <Modal open={isOpen} onClose={() => setIsOpen(false)} data={data} />
+          <Modal
+            open={isOpen}
+            onClose={() => {
+              setIsOpen(false);
+              let bodyAddClass = document.getElementsByTagName("body");
+              bodyAddClass[0].style.overflowY = "";
+            }}
+            data={data}
+          />
         </div>
         <div className="w-full flex justify-center items-center text-center">
           <Title title={content.title} des={content.subtitle} />

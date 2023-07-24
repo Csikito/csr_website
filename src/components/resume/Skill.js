@@ -17,7 +17,7 @@ function Skill({ content }) {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full gap-10"
+      className="w-full  gap-10"
     >
       <div className=" w-full h-full mdl:h-[948px]  ">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
@@ -26,7 +26,7 @@ function Skill({ content }) {
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">{content.title}</h2>
         </div>
-        <div className="w-full  flex flex-col gap-8 mdl:gap-20 py-4 sml:py-10 px-2 sml:px-10 rounded-[5px] relative ">
+        <div className="w-full  flex flex-col gap-8 mdl:gap-20 mt-10 py-4 sml:py-16 px-2 sml:px-10 rounded-[5px] relative ">
           <div className=" w-[300px] h-[300px] rounded-full m-auto z-20 animate-rotate relative">
             <div className="text-7xl text-orange-500 inline-block animate-rotate-negativ absolute top-0 left-0 ">
               <div className="animate-wiggle">
@@ -69,7 +69,7 @@ function Skill({ content }) {
               </div>
             </div>
           </div>
-          <div className="m-auto">
+          <div className="hidden mdl:block m-auto">
             <div className="absolute top-1 left-1/2 -translate-x-1/2 w-[460px] h-[400px] rounded bg-[#CEDDF6] dark:bg-[#123050] opacity-90 z-10 "></div>
             <img
               src={skill__img}
