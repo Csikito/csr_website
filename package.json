@@ -1,6 +1,7 @@
 {
   "name": "csr_website",
   "version": "0.1.0",
+  "homepage": "https://Csikito.github.io/csr_website",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.2"
   }
 }

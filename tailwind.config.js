@@ -34,6 +34,26 @@ module.exports = {
         shadowResume:
           "inset 8px 8px 15px #112e42, inset -8px -8px 15px #112e42",
       },
+      animation: {
+        "spin-slow": "spin 10s linear infinite",
+        wiggle: "wiggle 5s linear infinite",
+        rotate: "rotate 20s linear infinite",
+        "rotate-negativ": "rotate-negativ 20s linear infinite",
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-4deg)" },
+          "50%": { transform: "rotate(4deg)" },
+        },
+        rotate: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+        "rotate-negativ": {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(-360deg)" },
+        },
+      },
     },
   },
   plugins: [],
