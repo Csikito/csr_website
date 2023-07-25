@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/csr_website/static/css/main.67998b03.css",
-    "main.js": "/csr_website/static/js/main.ce5fc3ad.js",
+    "main.css": "/csr_website/static/css/main.07467228.css",
+    "main.js": "/csr_website/static/js/main.11fcdc35.js",
     "static/media/csikito-trans.png": "/csr_website/static/media/csikito-trans.55e70cabf0b482e4c798.png",
     "static/media/banner.png": "/csr_website/static/media/banner.ec1575743ac219e7b2ff.png",
     "static/media/csikito-food-bar.png": "/csr_website/static/media/csikito-food-bar.4497b245cdf8d1ccd563.png",
+    "static/media/rent-car.png": "/csr_website/static/media/rent-car.5a6af969a13aec3c2bbd.png",
+    "static/media/skill.png": "/csr_website/static/media/skill.9a3b16f4ceacbde774e4.png",
     "static/media/aboutImg.png": "/csr_website/static/media/aboutImg.c52aabb2f4cba5bff6cb.png",
     "static/media/randomUser.png": "/csr_website/static/media/randomUser.f58a0d8657a1f3743d20.png",
     "static/media/csikito-trans.webp": "/csr_website/static/media/csikito-trans.874dedcd03dcc608bebf.webp",
     "static/media/basketball.png": "/csr_website/static/media/basketball.6159b6bed45fe6f14fda.png",
     "static/media/colorCsr.png": "/csr_website/static/media/colorCsr.7d2e8db9f1d23e27d2f7.png",
     "static/media/technology.png": "/csr_website/static/media/technology.f6f324dc22a9af2ae693.png",
+    "static/media/rent-car.webp": "/csr_website/static/media/rent-car.42b4bd7be4efb690b439.webp",
     "static/media/blackCsr.png": "/csr_website/static/media/blackCsr.651fc69c8d41a594e0e9.png",
+    "static/media/rent-car-logo.png": "/csr_website/static/media/rent-car-logo.a23d633af2394d9db9de.png",
     "static/media/hiiking.png": "/csr_website/static/media/hiiking.5cc01a02e11ede86bc3c.png",
     "static/media/flashcard.png": "/csr_website/static/media/flashcard.59065200be7615bbc309.png",
     "static/media/randomUser.webp": "/csr_website/static/media/randomUser.1b5ccf6ad4673d3175ce.webp",
@@ -30,6 +34,7 @@
     "static/media/tic-tac-toe.webp": "/csr_website/static/media/tic-tac-toe.e98b29dd878348588995.webp",
     "static/media/colorCsr.webp": "/csr_website/static/media/colorCsr.c41f30a452a13e5cf21a.webp",
     "static/media/transport-logo.png": "/csr_website/static/media/transport-logo.c4800b28911f9cc68d47.png",
+    "static/media/rent-car-logo.webp": "/csr_website/static/media/rent-car-logo.5ee29b17e75f0d251e56.webp",
     "static/media/flash-logo.webp": "/csr_website/static/media/flash-logo.00f64e40d98960bbdbb8.webp",
     "static/media/logo.webp": "/csr_website/static/media/logo.a15fcac1d3b2cd24713e.webp",
     "static/media/game-logo.webp": "/csr_website/static/media/game-logo.4cf5b577e1094e4f294b.webp",
@@ -38,11 +43,11 @@
     "static/media/food-logo.webp": "/csr_website/static/media/food-logo.35efa37a54476e116e4a.webp",
     "static/media/cooking.webp": "/csr_website/static/media/cooking.0f0d03ad07b1a052329e.webp",
     "index.html": "/csr_website/index.html",
-    "main.67998b03.css.map": "/csr_website/static/css/main.67998b03.css.map",
-    "main.ce5fc3ad.js.map": "/csr_website/static/js/main.ce5fc3ad.js.map"
+    "main.07467228.css.map": "/csr_website/static/css/main.07467228.css.map",
+    "main.11fcdc35.js.map": "/csr_website/static/js/main.11fcdc35.js.map"
   },
   "entrypoints": [
-    "static/css/main.67998b03.css",
-    "static/js/main.ce5fc3ad.js"
+    "static/css/main.07467228.css",
+    "static/js/main.11fcdc35.js"
   ]
 }
