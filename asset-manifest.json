@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/csr_website/static/css/main.1db807c5.css",
-    "main.js": "/csr_website/static/js/main.b7d69283.js",
+    "main.js": "/csr_website/static/js/main.5181a286.js",
     "static/media/csikito-trans.png": "/csr_website/static/media/csikito-trans.55e70cabf0b482e4c798.png",
     "static/media/banner.png": "/csr_website/static/media/banner.ec1575743ac219e7b2ff.png",
     "static/media/csikito-food-bar.png": "/csr_website/static/media/csikito-food-bar.4497b245cdf8d1ccd563.png",
@@ -44,10 +44,10 @@
     "static/media/cooking.webp": "/csr_website/static/media/cooking.0f0d03ad07b1a052329e.webp",
     "index.html": "/csr_website/index.html",
     "main.1db807c5.css.map": "/csr_website/static/css/main.1db807c5.css.map",
-    "main.b7d69283.js.map": "/csr_website/static/js/main.b7d69283.js.map"
+    "main.5181a286.js.map": "/csr_website/static/js/main.5181a286.js.map"
   },
   "entrypoints": [
     "static/css/main.1db807c5.css",
-    "static/js/main.b7d69283.js"
+    "static/js/main.5181a286.js"
   ]
 }
