@@ -100,14 +100,14 @@ const Eng = {
         id: 3,
       },
       {
-        title: "FLASHCARD",
+        title: "MASTERMIND",
         description: `I developed a simple but fun web game. [ #JS, #React ]`,
         srcImg: mastermind,
         srcLogo: mastermindLogo,
         srcImgPng: mastermindPng,
         srcLogoPng: mastermindLogoPng,
-        linkWeb: "https://csikito.github.io/csikito_flashcard/",
-        linkGit: "https://github.com/Csikito/csikito_flashcard",
+        linkWeb: "https://csikito.github.io/mastermind/",
+        linkGit: "https://github.com/Csikito/mastermind",
         id: 4,
       },
       {
