@@ -13,7 +13,7 @@ function ProjectCard({ data, handelModalView }) {
       <picture className="w-full h-full flex justify-center">
         <source type="image/webp" srcSet={data.srcLogo} />
         <img
-          className=" object-cover group-hover:scale-110 duration-300 project_logo_filter"
+          className="object-cover group-hover:scale-110 duration-300 project_logo_filter w-[230px] h-[230px]"
           src={data.srcLogoPng}
           alt={data.title}
         />

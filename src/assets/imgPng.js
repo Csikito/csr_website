@@ -2,13 +2,13 @@ import logoPng from "./images/logo.png";
 import aboutImgPng from "./images/aboutImg.png";
 import foodLogoPng from "./images/png/projects/food-logo.png";
 import transLogoPng from "./images/png/projects/transport-logo.png";
-import flashLogoPng from "./images/png/projects/flash-logo.png";
+import mastermindLogoPng from "./images/png/projects/mastermind-logo.png";
 import gameLogoPng from "./images/png/projects/game-logo.png";
 import userLogoPng from "./images/png/projects/user-logo.png";
 import rentCarLogoPng from "./images/png/projects/rent-car-logo.png";
 import foodBarPng from "./images/png/projects/csikito-food-bar.png";
 import transPng from "./images/png/projects/csikito-trans.png";
-import flashcardPng from "./images/png/projects/flashcard.png";
+import mastermindPng from "./images/png/projects/mastermind.png";
 import TicTacToePng from "./images/png/projects/tic-tac-toe.png";
 import randomUserPng from "./images/png/projects/randomUser.png";
 import rentCarPng from "./images/png/projects/rent-car.png";
@@ -25,13 +25,13 @@ export {
   aboutImgPng,
   foodLogoPng,
   transLogoPng,
-  flashLogoPng,
+  mastermindLogoPng,
   gameLogoPng,
   userLogoPng,
   rentCarLogoPng,
   foodBarPng,
   transPng,
-  flashcardPng,
+  mastermindPng,
   TicTacToePng,
   randomUserPng,
   rentCarPng,
