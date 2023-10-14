@@ -5,8 +5,6 @@ function ProjectCard({ data, handelModalView }) {
     <div
       onClick={(e) => {
         handelModalView(data, e);
-        let bodyAddClass = document.getElementsByTagName("body");
-        bodyAddClass[0].style.overflowY = "hidden";
       }}
       className="projectCard"
     >

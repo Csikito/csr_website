@@ -18,7 +18,7 @@ function Project({ content }) {
   };
 
   return (
-    <section id="project" className="w-full py-20 font-titleFont relative">
+    <section id="project" className="w-full py-20 font-titleFont z-10 relative">
       <div className="absolute top-0 left-0 w-full h-full bg-banner bg-cover"></div>
       <div className="absolute top-0 left-0 w-full h-full bg-white dark:bg-bodyColor bg-opacity-90 dark:bg-opacity-95"></div>
       <div className="max-w-screen-xl mx-auto sticky px-4">
