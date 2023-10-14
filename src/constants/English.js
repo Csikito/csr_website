@@ -148,9 +148,10 @@ const Eng = {
       subtitle: "2011 - ",
 
       item1: {
-        title: "Online Web Development",
-        subtitle: "Programozaskarrier.hu (2022 - )",
-        description: `Bootcamp and mentoring programme with high quality mentors`,
+        title: "Web Development",
+        subtitle: "Programozaskarrier.hu (2022)",
+        description:
+          "I learned the basics of programming in more depth through an online video course.",
       },
       item2: {
         title: "BSc in Mechanical Engineering",
@@ -181,7 +182,7 @@ const Eng = {
       },
       exp: {
         native: "Native",
-        elementary: "Elementary",
+        elementary: "Pre-intermediate",
       },
     },
   },

@@ -59,7 +59,7 @@ const Hun = {
     Pályámat gépészmérnökként kezdtem. Másfél éve jelentkeztem egy online
     webfejlesztői tanfolyamra, ahol elsajátítottam a webfejlesztés alap 
     eszközeit, mint például: HTML, CSS, JS, valamint készítettem projekteket 
-    Reactben is`,
+    Reactben is.`,
   },
   projects: {
     title: "Projectek",
@@ -146,9 +146,10 @@ const Hun = {
       title: "Tanulmány",
       subtitle: "2011 - ",
       item1: {
-        title: "Online Webfejlesztés",
-        subtitle: "Programozaskarrier.hu (2022 - )",
-        description: `Bootcamp és mentorprogram, kitűnő mentorokkal!`,
+        title: "Webfejlesztés",
+        subtitle: "Programozaskarrier.hu (2022)",
+        description:
+          "Online videós tanfolyamon keresztül sajátítottam el mélyebben a programozás alapjait.",
       },
       item2: {
         title: "BSc - Gépészmérnöki",
@@ -180,7 +181,7 @@ const Hun = {
       },
       exp: {
         native: "Anyanyelvi",
-        elementary: "Alapfokú",
+        elementary: "Társalgási szint",
       },
     },
   },
