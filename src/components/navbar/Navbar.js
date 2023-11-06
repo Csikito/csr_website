@@ -12,7 +12,7 @@ function Navbar({ content, handleEng, handleHun, isEng, handleTheme, theme }) {
   };
 
   return (
-    <div className="w-full sticky top-0 h-20 mx-auto  z-50  shadow-md shadow-blue-500/50 flex  items-center  dark:bg-bodyColor dark:text-gray-400 bg-slate-100 text-blue-900 ">
+    <div className="w-full sticky top-0 h-20 mx-auto  z-40  shadow-md shadow-blue-500/50 flex  items-center  dark:bg-bodyColor dark:text-gray-400 bg-slate-100 text-blue-900 ">
       <div className=" relative px-10  w-full flex justify-between items-center ">
         <picture>
           <source type="image/webp" srcSet={logo} />
