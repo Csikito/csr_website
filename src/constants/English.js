@@ -168,6 +168,20 @@ const Eng = {
     hobby: {
       title: "Hobbies",
       subtitle: "Favourite",
+      basketballDescription: {
+        part1: `The similarities between programming and basketball make for interesting parallels between the two different fields. Just as basketball requires teamwork and strategic thinking to succeed, so in programming, teamwork and a good understanding of the game are essential well-designed code architecture.`,
+        part2: `Programmers and basketball players alike are faced with challenges that develop their creativity and problem-solving skills. Both activities encourage individual development, while the success of the team as a whole is key.`,
+      },
+      technologyDescription: {
+        part1: `I have always been fascinated by programming, initially because it was a daily long hours a day in front of the computer, and the white background screen distracted me. That's when I started writing style sheets for school school projects, using various extensions. The corporate I continued this habit in the corporate environment, when a style sheet for the company's web software, and of course when they found out that I had a style sheet I had to install it on all my colleagues.`,
+        part2: `The real breakthrough came when I came across an outdated system at work where I had to enter data manually. I couldn't believe that there was no automated solution to this, so I was determined to get started and I did it in three days. The result was not only a time-saver, but also a clear demonstration that programming can be used to optimise processes very efficiently. That's why I decided to change careers, because why not do something I really enjoy and where I can make a real difference?`,
+      },
+      hiikingDescription: {
+        part1: `Navigating with maps and hiking trails while hiking skills, which is similar to those required for programming structuring and optimizing code in programming. Both problem solving skills are paramount in both activities, as hikers have to adapt to weather conditions and and terrain conditions, while programmers have to find effective solutions to different challenges.`,
+      },
+      cookingDescription: {
+        part1: `Just as programmers create in code, chefs create in the combination of flavours and textures. In both areas, precision and following precise instructions are essential to achieve the desired result. In both coding and cooking, correcting mistakes and optimising are part of the process.`,
+      },
     },
     skill: {
       title: "Development Skills",

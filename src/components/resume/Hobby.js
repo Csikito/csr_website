@@ -71,20 +71,8 @@ function Hobby({ content }) {
               alt="csr"
             />
             <div className="absolute bottom-1/2 right-0 translate-y-1/2 w-full h-0 group-hover:h-fit  invisible group-hover:visible overflow-hidden group-hover:p-5  dark:bg-[#0D243C] bg-designColor dark:bg-opacity-90 bg-opacity-80 border  border-designColor rounded-lg dark:shadow-shadowResume shadow-lg shadow-cyan-500/50 z-50 transition-all duration-300 ">
-              <p className="mb-2">
-                A programozás és a kosárlabda hasonlóságai érdekes párhuzamokat
-                mutatnak a két különböző terület között. Ahogyan a kosárlabda
-                csapatmunkát és stratégiai gondolkodást igényel a sikerhez, úgy
-                a programozásban is elengedhetetlen a csapatmunka és a jól
-                megtervezett kódarchitektúra.
-              </p>
-              <p>
-                A programozók és kosárlabdázók egyaránt szembesülnek
-                kihívásokkal, amelyek megoldása során fejlesztik kreativitásukat
-                és problémamegoldó képességeiket. Mindkét tevékenység ösztönzi
-                az egyéni fejlődést, miközben a csapat egészének sikere is
-                kulcsfontosságú.
-              </p>
+              <p className="mb-2 ">{content.basketballDescription.part1}</p>
+              <p>{content.basketballDescription.part2}</p>
             </div>
           </picture>
 
@@ -101,27 +89,8 @@ function Hobby({ content }) {
               alt="csr"
             />
             <div className="absolute bottom-1/2 right-0 translate-y-1/2 w-full h-0 group-hover:h-fit  invisible group-hover:visible overflow-hidden group-hover:p-5  dark:bg-[#0D243C] bg-designColor dark:bg-opacity-90 bg-opacity-80 border  border-designColor rounded-lg dark:shadow-shadowResume shadow-lg shadow-cyan-500/50 z-50 transition-all duration-300 ">
-              <p className="mb-2 ">
-                A programozás mindig is lenyűgözött, kezdetben azért, mert napi
-                hosszú órákat töltöttem a számítógép előtt, és a fehér hátterű
-                képernyő zavart. Ekkor kezdtem stílus lapokat írni az iskolai
-                projektekhez, használva különböző kiterjesztéseket. A vállalati
-                környezetben is folytattam ezt a szokásomat, amikor egy
-                stíluslapot készítettem a cég webes szoftveréhez, és
-                természetesen amikor megtudták hogy ílyen stíluslappal
-                rendelkezem, minden kollégámnak fel kellett telepítenem.
-              </p>
-              <p>
-                Az igazi áttörés akkor jött el, amikor egy elavult rendszerrel
-                találkoztam a munkahelyemen, ahol kézzel kellett beírni az
-                adatokat. Nem hihettem el, hogy nincs automatizált megoldás
-                erre, így elszántan nekiálltam, és három nap alatt sikerült
-                megoldanom. Az eredmény nemcsak időmegtakarítás volt, hanem
-                egyértelműen megmutatta, hogy a programozással rendkívül
-                hatékonyan lehet optimalizálni folyamatokat. Ezért döntöttem el,
-                hogy karriert váltok, hiszen miért ne csinálnám azt, amit igazán
-                élvezek és amiben valódi változást hozhatok létre?
-              </p>
+              <p className="mb-2 ">{content.technologyDescription.part1}</p>
+              <p>{content.technologyDescription.part2}</p>
             </div>
           </picture>
           <picture className="group cursor-pointer">
@@ -137,28 +106,7 @@ function Hobby({ content }) {
               alt="csr"
             />
             <div className="absolute bottom-1/2 right-0 translate-y-1/2 w-full h-0 group-hover:h-fit  invisible group-hover:visible overflow-hidden group-hover:p-5  dark:bg-[#0D243C] bg-designColor dark:bg-opacity-90 bg-opacity-80 border  border-designColor rounded-lg dark:shadow-shadowResume shadow-lg shadow-cyan-500/50 z-50 transition-all duration-300 ">
-              <p className="mb-2">
-                A programozás és a kosárlabda hasonlóságai érdekes párhuzamokat
-                mutatnak a két különböző terület között. Ahogyan a kosárlabda
-                csapatmunkát és stratégiai gondolkodást igényel a sikerhez, úgy
-                a programozásban is elengedhetetlen a csapatmunka és a jól
-                megtervezett kódarchitektúra.A programozók és kosárlabdázók
-                egyaránt szembesülnek kihívásokkal, amelyek megoldása során
-                fejlesztik kreativitásukat és problémamegoldó képességeiket.
-                Mindkét tevékenység ösztönzi az egyéni fejlődést, miközben a
-                csapat egészének sikere is kulcsfontosságú.Mind a túrázóknak,
-                mind a programozóknak fontos, hogy új területeket fedezzenek
-                fel, legyen az egy hegycsúcs vagy egy új programozási nyelv.
-              </p>
-              <p>
-                A túrázás során a térképekkel való navigáció és a túraútvonalak
-                tervezése készségeket igényel, ami hasonló a programozás
-                területén a kódok strukturálásához és optimalizálásához. Mindkét
-                tevékenység során kiemelkedő a problémamegoldó képesség, hiszen
-                a túrázóknak alkalmazkodniuk kell az időjárási körülményekhez és
-                a terepviszonyokhoz, míg a programozóknak meg kell találniuk a
-                hatékony megoldásokat különböző kihívásokra.
-              </p>
+              <p>{content.hiikingDescription.part1}</p>
             </div>
           </picture>
           <picture className="group cursor-pointer">
@@ -174,13 +122,7 @@ function Hobby({ content }) {
               alt="csr"
             />
             <div className="absolute bottom-1/2 right-0 translate-y-1/2 w-full h-0 group-hover:h-fit  invisible group-hover:visible overflow-hidden group-hover:p-5  dark:bg-[#0D243C] bg-designColor dark:bg-opacity-90 bg-opacity-80 border  border-designColor rounded-lg dark:shadow-shadowResume shadow-lg shadow-cyan-500/50 z-50 transition-all duration-300 ">
-              <p>
-                Ahogyan a programozók a kódokban alkotnak, úgy a szakácsok az
-                ízek és textúrák kombinációjában. A precizitás és a pontos
-                utasítások követése mindkét területen elengedhetetlen a kívánt
-                eredmény eléréséhez. Mind a kódolás, mind a főzés során a hibák
-                kijavítása és az optimalizálás is része a folyamatnak.
-              </p>
+              <p>{content.cookingDescription.part1}</p>
             </div>
           </picture>
         </div>
