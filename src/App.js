@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div
-      className={`w-full h-auto dark:bg-bodyColor dark:text-lightText  bg-gray-100 text-black dark:font-normal font-semibold`}
+      className={`w-full h-auto dark:bg-bodyColor dark:text-lightText  bg-gray-100 text-black dark:font-normal`}
     >
       <Navbar
         content={language.nav}

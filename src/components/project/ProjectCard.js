@@ -14,10 +14,12 @@ function ProjectCard({ data }) {
           />
         </picture>
 
-        <h3 className="text-base uppercase text-designColor ">{data.title}</h3>
+        <h3 className="text-base uppercase text-designColor font-semibold">
+          {data.title}
+        </h3>
       </div>
 
-      <div className="projectCard absolute w-full h-full min-h-[200px] sm:min-h-[301px] -rotate-y-180  backface-hidden group-hover:rotate-y-0  ">
+      <div className="projectCard absolute w-full h-full min-h-[200px] sm:min-h-[301px] -rotate-y-180  backface-hidden group-hover:rotate-y-0 ">
         <div className="relative w-full h-full overflow-hidden">
           <div className="w-full h-full overflow-hidden rounded-lg">
             <picture>
@@ -29,9 +31,9 @@ function ProjectCard({ data }) {
               />
             </picture>
           </div>
-          <div className="absolute top-0 right-0 w-full h-full flex flex-col justify-end gap-2 bg-black bg-opacity-80  rounded-lg">
-            <div className="flex justify-between items-center pt-2 px-2 sm:pt-5 sm:px-6">
-              <h3 className="text-base uppercase text-designColor text-center tex-bold">
+          <div className="absolute top-0 right-0 w-full h-full flex flex-col justify-end gap-2 dark:bg-black dark:bg-opacity-80 bg-bodyColor bg-opacity-60  rounded-lg font-semibold">
+            <div className="flex justify-between items-center pt-2 px-2 sm:px-6">
+              <h3 className="text-base uppercase text-designColor text-center ">
                 {data.title}
               </h3>
               <div className="flex gap-2">
@@ -49,7 +51,7 @@ function ProjectCard({ data }) {
                 </a>
               </div>
             </div>
-            <div className="text-sm tracking-wide pb-2 px-2 sm:pt-5 sm:px-6 hover:text-gray-50 duration-300">
+            <div className="text-sm tracking-wide pb-2 px-2 sm:py-4 sm:px-6 text-gray-50 duration-300">
               <p>{data.description}</p>
             </div>
           </div>
