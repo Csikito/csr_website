@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/csr_website/static/css/main.ff52919a.css",
-    "main.js": "/csr_website/static/js/main.c4f0fe44.js",
+    "main.js": "/csr_website/static/js/main.f5771efc.js",
     "static/media/csikito-trans.png": "/csr_website/static/media/csikito-trans.55e70cabf0b482e4c798.png",
     "static/media/luka-shop.png": "/csr_website/static/media/luka-shop.4de3af23fdfa42f0d10f.png",
     "static/media/banner.png": "/csr_website/static/media/banner.ec1575743ac219e7b2ff.png",
@@ -45,10 +45,10 @@
     "static/media/huFlag.webp": "/csr_website/static/media/huFlag.c091f5c008260092d258.webp",
     "index.html": "/csr_website/index.html",
     "main.ff52919a.css.map": "/csr_website/static/css/main.ff52919a.css.map",
-    "main.c4f0fe44.js.map": "/csr_website/static/js/main.c4f0fe44.js.map"
+    "main.f5771efc.js.map": "/csr_website/static/js/main.f5771efc.js.map"
   },
   "entrypoints": [
     "static/css/main.ff52919a.css",
-    "static/js/main.c4f0fe44.js"
+    "static/js/main.f5771efc.js"
   ]
 }
