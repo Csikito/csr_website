@@ -1,4 +1,6 @@
 import {
+  ukFlag,
+  huFlag,
   foodBar,
   trans,
   mastermind,
@@ -14,6 +16,8 @@ import {
 } from "../assets/img";
 
 import {
+  ukFlagPng,
+  huFlagPng,
   foodBarPng,
   transPng,
   mastermindPng,
@@ -35,6 +39,12 @@ const Eng = {
     resume: "Resume",
     projects: "Projects",
     contact: "Contact",
+    flag: {
+      srcHuFlag: huFlag,
+      srcHuFlagPng: huFlagPng,
+      srcUkFlag: ukFlag,
+      srcUkFlagPng: ukFlagPng,
+    },
   },
   home: {
     title_h4: "Welcome to my World.",
@@ -194,9 +204,15 @@ const Eng = {
         eng: "English",
         hun: "Hungarian",
       },
+      flag: {
+        srcHuFlag: huFlag,
+        srcHuFlagPng: huFlagPng,
+        srcUkFlag: ukFlag,
+        srcUkFlagPng: ukFlagPng,
+      },
       exp: {
         native: "Native",
-        elementary: "Pre-intermediate",
+        elementary: "Intermediate",
       },
     },
   },

@@ -1,4 +1,6 @@
 import logoPng from "./images/logo.png";
+import ukFlagPng from "./images/ukFlag.png";
+import huFlagPng from "./images/huFlag.png";
 import aboutImgPng from "./images/aboutImg.png";
 import foodLogoPng from "./images/png/projects/food-logo.png";
 import transLogoPng from "./images/png/projects/transport-logo.png";
@@ -22,6 +24,8 @@ import technologyPng from "./images/png/hobby/technology.png";
 
 export {
   logoPng,
+  ukFlagPng,
+  huFlagPng,
   aboutImgPng,
   foodLogoPng,
   transLogoPng,

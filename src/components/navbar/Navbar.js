@@ -11,6 +11,8 @@ function Navbar({ content, handleEng, handleHun, isEng, handleTheme, theme }) {
     setShowMenu(!showMenu);
   };
 
+  console.log(content.flag.srcHuFlag);
+
   return (
     <div className="w-full sticky top-0 h-20 mx-auto  z-40  shadow-md shadow-blue-500/50 flex  items-center  dark:bg-bodyColor dark:text-gray-400 bg-slate-100 text-blue-900 ">
       <div className=" relative px-10  w-full flex justify-between items-center ">
@@ -108,23 +110,37 @@ function Navbar({ content, handleEng, handleHun, isEng, handleTheme, theme }) {
               className="text-base dark:font-normal font-semibold tracking-wide dark:text-gray-400 text-blue-900
             cursor-pointer hover:text-designColor duration-300"
             >
-              <div className="home-language">
+              <div className="flex justify-center items-center">
                 <button
                   onClick={handleEng}
-                  className={`home-language-btn ${
-                    isEng ? "active-language text-designColor" : ""
+                  className={`translation duration-300 ${
+                    isEng ? " scale-125" : "rotate-12"
                   }`}
                 >
-                  🇬🇧
+                  <picture>
+                    <source type="image/webp" srcSet={content.flag.srcUkFlag} />
+                    <img
+                      className="w-[16px]  object-cover"
+                      src={content.flag.srcUkFlagPng}
+                      alt="English"
+                    />
+                  </picture>
                 </button>
                 <span className="px-2">/</span>
                 <button
                   onClick={handleHun}
-                  className={`home-language-btn ${
-                    !isEng ? "active-language text-designColor" : ""
+                  className={`translation duration-300 ${
+                    !isEng ? " scale-125" : "rotate-12"
                   }`}
                 >
-                  🇭🇺
+                  <picture>
+                    <source type="image/webp" srcSet={content.flag.srcHuFlag} />
+                    <img
+                      className="w-[16px] object-cover"
+                      src={content.flag.srcHuFlagPng}
+                      alt="Hungary"
+                    />
+                  </picture>
                 </button>
               </div>
             </li>

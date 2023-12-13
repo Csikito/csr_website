@@ -41,6 +41,7 @@ function ProjectCard({ data }) {
                   <a
                     href={data.linkWeb}
                     className="text-xl w-9 h-9 sm:text-3xl sm:w-14 sm:h-14 dark:bg-black bg-white rounded-full cursor-pointer flex justify-center items-center text-gray-400 hover:text-designColor opacity-0 group-hover:opacity-100 delay-500 duration-300"
+                    target="_blank"
                   >
                     <FaPager />
                   </a>
@@ -49,6 +50,7 @@ function ProjectCard({ data }) {
                   <a
                     href={data.linkGit}
                     className="text-xl w-9 h-9 sm:text-3xl sm:w-14 sm:h-14 dark:bg-black bg-white rounded-full cursor-pointer flex justify-center items-center text-gray-400 hover:text-designColor opacity-0 group-hover:opacity-100 delay-500 duration-300"
+                    target="_blank"
                   >
                     <FaGithub />
                   </a>

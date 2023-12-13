@@ -1,4 +1,6 @@
 import logo from "./images/logo.webp";
+import ukFlag from "./images/ukFlag.webp";
+import huFlag from "./images/huFlag.webp";
 import aboutImg from "./images/aboutImg.png";
 import foodLogo from "./images/webp/projects/food-logo.webp";
 import transLogo from "./images/webp/projects/transport-logo.webp";
@@ -22,6 +24,8 @@ import technology from "./images/webp/hobby/technology.webp";
 
 export {
   logo,
+  ukFlag,
+  huFlag,
   aboutImg,
   foodLogo,
   transLogo,

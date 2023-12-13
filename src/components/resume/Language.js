@@ -1,7 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { GiHungary } from "react-icons/gi";
-import { RiEnglishInput } from "react-icons/ri";
 
 function Language({ content }) {
   return (
@@ -20,42 +18,56 @@ function Language({ content }) {
         <div className="w-full mt-14 flex flex-col gap-8 mdl:gap-20 py-8 px-4 sml:py-10 sml:px-10 bg-gradient-to-tr from-blue-300 dark:from-transparent rounded-[5px]">
           {/*********** Hungary **************/}
           <div className="flex justify-center items-center relative">
-            <p className="text-7xl text-designColor font-medium ">
-              <GiHungary />
-              <span className="absolute text-lg dark:text-lightText text-blue-950 -bottom-4">
+            <div className="text-7xl text-designColor font-medium ">
+              <picture>
+                <source type="image/webp" srcSet={content.flag.srcHuFlag} />
+                <img
+                  className="w-[80px] object-cover"
+                  src={content.flag.srcHuFlagPng}
+                  alt={content.lan.hun}
+                />
+              </picture>
+              <span className="absolute text-lg dark:text-lightText text-blue-950 -bottom-7">
                 {content.lan.hun}
               </span>
               <span className="absolute text-lg dark:text-lightText text-blue-950 top-0 right-0">
                 {content.exp.native}
               </span>
-            </p>
+            </div>
             <span className="w-full h-2 bg-black bg-opacity-40 inline-flex mt-2 ml-10 overflow-y-hidden">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="w-[98%] h-full bg-gradient-to-r from-blue-400  via-green-500  to-red-500 
+                className="w-[99%] h-full bg-gradient-to-r from-blue-400  via-green-500  to-red-500 
                 rounded-lg"
               ></motion.span>
             </span>
           </div>
-          {/*********** Hungary **************/}
+          {/*********** English **************/}
           <div className="flex justify-center items-center relative">
-            <p className="text-5xl text-designColor font-medium ">
-              <RiEnglishInput />
-              <span className="absolute text-lg dark:text-lightText text-blue-950 -bottom-6">
+            <div className="text-5xl text-designColor font-medium ">
+              <picture>
+                <source type="image/webp" srcSet={content.flag.srcUkFlag} />
+                <img
+                  className="w-[80px] object-cover"
+                  src={content.flag.srcUkFlagPng}
+                  alt={content.lan.eng}
+                />
+              </picture>
+              <span className="absolute text-lg dark:text-lightText text-blue-950 -bottom-7">
                 {content.lan.eng}
               </span>
               <span className="absolute text-lg dark:text-lightText text-blue-950 -top-2 right-0">
                 {content.exp.elementary}
               </span>
-            </p>
+            </div>
             <span className="w-full h-2 bg-black bg-opacity-40 inline-flex mt-2 ml-16 overflow-y-hidden">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className="w-[30%] h-full bg-gradient-to-r from-blue-400 from-50% to-green-400  
+                className="w-[50%] h-full bg-gradient-to-r from-blue-400 from to-green-500  
                 rounded-lg"
               ></motion.span>
             </span>

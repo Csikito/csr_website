@@ -1,4 +1,6 @@
 import {
+  ukFlag,
+  huFlag,
   foodBar,
   trans,
   mastermind,
@@ -14,6 +16,8 @@ import {
 } from "../assets/img";
 
 import {
+  ukFlagPng,
+  huFlagPng,
   foodBarPng,
   transPng,
   mastermindPng,
@@ -35,6 +39,12 @@ const Hun = {
     resume: "Önéletrajz",
     projects: "Projectek",
     contact: "Kapcsolat",
+    flag: {
+      srcHuFlag: huFlag,
+      srcHuFlagPng: huFlagPng,
+      srcUkFlag: ukFlag,
+      srcUkFlagPng: ukFlagPng,
+    },
   },
   home: {
     title_h4: "üdvözöllek a világomban.",
@@ -225,6 +235,12 @@ const Hun = {
       lan: {
         eng: "Angol",
         hun: "Magyar",
+      },
+      flag: {
+        srcHuFlag: huFlag,
+        srcHuFlagPng: huFlagPng,
+        srcUkFlag: ukFlag,
+        srcUkFlagPng: ukFlagPng,
       },
       exp: {
         native: "Anyanyelvi",
