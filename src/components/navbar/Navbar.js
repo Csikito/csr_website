@@ -11,18 +11,26 @@ function Navbar({ content, handleEng, handleHun, isEng, handleTheme, theme }) {
     setShowMenu(!showMenu);
   };
 
-  console.log(content.flag.srcHuFlag);
-
   return (
     <div className="w-full sticky top-0 h-20 mx-auto  z-40  shadow-md shadow-blue-500/50 flex  items-center  dark:bg-bodyColor dark:text-gray-400 bg-slate-100 text-blue-900 ">
       <div className=" relative px-10  w-full flex justify-between items-center ">
-        <picture>
-          <source type="image/webp" srcSet={logo} />
-          <img className="max-w-[150px]" src={logoPng} alt="logo" />
-        </picture>
+        <Link
+          onClick={handleMenu}
+          className="cursor-pointer"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <picture>
+            <source type="image/webp" srcSet={logo} />
+            <img className="max-w-[150px]" src={logoPng} alt="logo" />
+          </picture>
+        </Link>
         <div>
           <ul
-            className={`  mdl:gap-4 lg:gap-10 ${
+            className={`mdl:gap-4 lg:gap-10 ${
               showMenu ? "navBarTrue" : "navBarFalse"
             }`}
           >
