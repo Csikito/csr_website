@@ -2,13 +2,14 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import { Link } from "react-scroll";
 
 function Home({ content }) {
   const [textHun] = useTypewriter({
     words: [
-      "Frontend fejlesztő.",
-      "Profi programozó.",
-      "Autodidakta módon tanult programozó .",
+      "Frontend Fejlesztő",
+      "Webfejlesztő",
+      "Autodidakta Módon Tanult Programozó",
     ],
     loop: true,
     typeSpeed: 40,
@@ -18,9 +19,9 @@ function Home({ content }) {
 
   const [textEng] = useTypewriter({
     words: [
-      "Frontend Developer.",
-      "Professional Coder.",
-      "Self-taught Frontend Programmer.",
+      "Frontend Developer",
+      "Web Developer",
+      "Self-taught Frontend Programmer",
     ],
     loop: true,
     typeSpeed: 40,
@@ -55,12 +56,22 @@ function Home({ content }) {
             <Cursor cursorStyle="_" cursorColor="#00abf0" />
           </h2>
           <div className="flex flex-col gap-8 pt-16">
-            <p className="text-base font-bodyFont leading-6 tracking-wide ">
-              {content.moti_text1}
-            </p>
-            <p className="text-base font-bodyFont leading-6 tracking-wide">
-              {content.moti_text2}
-            </p>
+            <div className="">
+              <p className="text-base font-bodyFont leading-6 tracking-wide mb-1">
+                {content.moti_text1}
+              </p>
+              <p className="text-end text-designColor font-semibold opacity-70">
+                / {content.moti_author1} /
+              </p>
+            </div>
+            <div>
+              <p className="text-base font-bodyFont leading-6 tracking-wide mb-1">
+                {content.moti_text2}
+              </p>
+              <p className="text-end text-designColor font-semibold opacity-70">
+                / {content.moti_author2} /
+              </p>
+            </div>
           </div>
         </div>
         <div>
@@ -72,21 +83,29 @@ function Home({ content }) {
             <a
               href="https://hu.linkedin.com/in/ronald-csik%C3%B3s-a60938235?original_referer="
               className="dark:homeIcon homeIcon shadow-lg shadow-blue-500/50 bg-white bg-opacity-20 text-blue-800"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedin />
             </a>
             <a
               href="https://github.com/Csikito"
               className="dark:homeIcon homeIcon shadow-lg shadow-blue-500/50 bg-white bg-opacity-20 text-blue-800"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>
-            <a
-              href="mailto:csikosronald@gmail.com"
+            <Link
               className="dark:homeIcon homeIcon shadow-lg shadow-blue-500/50 bg-white bg-opacity-20 text-blue-800"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
               <GrMail />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

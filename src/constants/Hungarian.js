@@ -53,9 +53,10 @@ const Hun = {
     title_span: "Csikós Ronald",
     moti_text1:
       "„Mindenki tudja, hogy bizonyos dolgokat nem lehet megvalósítani, mígnem jön valaki, aki erről nem tud, és megvalósítja.”",
+    moti_author1: "Albert Einstein",
     moti_text2:
       "“A legnagyobb kockázat az, ha nem vállalsz semmilyen kockázatot. Egy gyorsan változó világban az egyetlen stratégia, ami biztosan sikertelen, az, ha soha nem kockáztatsz.”",
-
+    moti_author2: "Mark Zuckerberg",
     contact: "Keress",
     contact_span: "fel",
   },

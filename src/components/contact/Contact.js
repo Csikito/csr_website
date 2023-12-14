@@ -3,7 +3,6 @@ import Title from "../layouts/Title";
 import { contactImg } from "../../assets/img";
 import { contactImgPng } from "../../assets/imgPng";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { GrMail } from "react-icons/gr";
 import { useForm } from "@formspree/react";
 
 function Contact({ content }) {
@@ -83,20 +82,18 @@ function Contact({ content }) {
                 <a
                   href="https://hu.linkedin.com/in/ronald-csik%C3%B3s-a60938235?original_referer="
                   className="dark:homeIcon homeIcon shadow-lg shadow-blue-500/50 bg-white bg-opacity-20 text-blue-800"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <FaLinkedin />
                 </a>
                 <a
                   href="https://github.com/Csikito"
                   className="dark:homeIcon homeIcon shadow-lg shadow-blue-500/50 bg-white bg-opacity-20 text-blue-800"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <FaGithub />
-                </a>
-                <a
-                  href="mailto:csikosronald@gmail.com"
-                  className="dark:homeIcon homeIcon shadow-lg shadow-blue-500/50 bg-white bg-opacity-20 text-blue-800"
-                >
-                  <GrMail />
                 </a>
               </div>
             </div>

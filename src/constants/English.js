@@ -53,8 +53,10 @@ const Eng = {
     title_span: "Ronald Csikós",
     moti_text1:
       "„Everyone knew it was impossible, until a fool who didn’t know came along and did it.”",
+    moti_author1: "Albert Einstein",
     moti_text2:
       "“The biggest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks.”",
+    moti_author2: "Mark Zuckerberg",
     contact: "Find to ",
     contact_span: "me",
   },
