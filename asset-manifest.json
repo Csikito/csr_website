@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/csr_website/static/css/main.ff52919a.css",
-    "main.js": "/csr_website/static/js/main.f5771efc.js",
+    "main.css": "/csr_website/static/css/main.0db03210.css",
+    "main.js": "/csr_website/static/js/main.0cb5bcb6.js",
     "static/media/csikito-trans.png": "/csr_website/static/media/csikito-trans.55e70cabf0b482e4c798.png",
     "static/media/luka-shop.png": "/csr_website/static/media/luka-shop.4de3af23fdfa42f0d10f.png",
     "static/media/banner.png": "/csr_website/static/media/banner.ec1575743ac219e7b2ff.png",
@@ -44,11 +44,11 @@
     "static/media/cooking.webp": "/csr_website/static/media/cooking.0f0d03ad07b1a052329e.webp",
     "static/media/huFlag.webp": "/csr_website/static/media/huFlag.c091f5c008260092d258.webp",
     "index.html": "/csr_website/index.html",
-    "main.ff52919a.css.map": "/csr_website/static/css/main.ff52919a.css.map",
-    "main.f5771efc.js.map": "/csr_website/static/js/main.f5771efc.js.map"
+    "main.0db03210.css.map": "/csr_website/static/css/main.0db03210.css.map",
+    "main.0cb5bcb6.js.map": "/csr_website/static/js/main.0cb5bcb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff52919a.css",
-    "static/js/main.f5771efc.js"
+    "static/css/main.0db03210.css",
+    "static/js/main.0cb5bcb6.js"
   ]
 }
