@@ -80,7 +80,7 @@ function Contact({ content }) {
               </h2>
               <div className="flex gap-5">
                 <a
-                  href="https://hu.linkedin.com/in/ronald-csik%C3%B3s-a60938235?original_referer="
+                  href="https://hu.linkedin.com/in/ronald-csikos"
                   className="dark:homeIcon homeIcon shadow-lg shadow-blue-500/50 bg-white bg-opacity-20 text-blue-800"
                   target="_blank"
                   rel="noreferrer"
