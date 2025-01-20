@@ -54,12 +54,15 @@ const Eng = {
     title_h1_1: "I'm",
     title_h1_2: "",
     title_span: "Ronald Csikós",
-    description: `A Self-taught Front-end Programmer who is motivated to 
-    learn new skills and take on new challenges at the next level of his web development carrier. 
-    I started my career as a mechanical engineer. About a year and half ago, I decided to take a new 
-    direction in my career, I started my learning journey in web development. 
-    I acquired the basic tools of web development through my own projects, 
-    such as HTML, CSS, JavaScript, and I've done some projects with React.`,
+    description: [
+      `I began my programming journey as a self-taught developer, exploring foundational technologies like HTML, CSS, JavaScript, and Python. 
+                  As my skills grew, I delved into React for building dynamic user interfaces.`,
+      `My professional journey led me to focus on Python and Flask, where I applied these technologies extensively to develop efficient 
+                  and scalable web applications, including REST APIs. Working with these tools gave me a deeper understanding of backend development 
+                  and problem-solving in real-world scenarios.`,
+      `Currently, I am expanding my expertise in cloud technologies such as AWS and Azure, aiming to create robust, cloud-powered solutions.
+                   I am passionate about continuous learning and contributing to impactful and innovative projects.`,
+    ],
   },
   projects: {
     title: "My Projects",

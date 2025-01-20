@@ -54,11 +54,14 @@ const Hun = {
     title_h1_1: "",
     title_h1_2: "vagyok",
     title_span: "Csikós Ronald",
-    description: `Fiatal motivált karrierváltó vagyok, kiváló szociális készségekkel.
-    Pályámat gépészmérnökként kezdtem. Másfél éve jelentkeztem egy online
-    webfejlesztői tanfolyamra, ahol elsajátítottam a webfejlesztés alap 
-    eszközeit, mint például: HTML, CSS, JS, valamint készítettem projekteket 
-    Reactben is.`,
+    description: [
+      `A programozás iránti érdeklődésem autodidakta módon kezdődött, amikor megismerkedtem az alapvető technológiákkal, mint a HTML, CSS, JavaScript és Python. 
+      Ahogy egyre mélyebbre ástam a témában, a React segítségével kezdtem el dinamikus felhasználói felületeket építeni.`,
+      `Szakmai pályafutásom során a Pythonra és Flask-re helyeződött a fókuszom, ezeket a technológiákat széles körben alkalmaztam hatékony és skálázható webalkalmazások,
+       köztük REST API-k fejlesztésében. Ezek az eszközök segítettek abban, hogy mélyebb megértést szerezzek a backend fejlesztésről és a valós problémák megoldásáról.`,
+      `Jelenleg a felhőalapú technológiák, például az AWS és Azure iránti tudásomat bővítem, hogy robusztus, felhőalapú megoldásokat hozzak létre.
+       Szenvedélyesen hiszek a folyamatos tanulásban, és abban, hogy innovatív projektekkel értékes hozzájárulást nyújthatok.`,
+    ],
   },
   projects: {
     title: "Projectek",

@@ -30,9 +30,14 @@ function About({ content }) {
                 </span>{" "}
                 {content.title_h1_2}
               </h1>
-              <p className="w-[full] sml:px-6 lgl:px-13 text-base font-bodyFont leading-6 tracking-wide">
-                {content.description}
-              </p>
+              {content.description.map((paragraph, index) => (
+                <p
+                  className="w-[full] sml:px-6 lgl:px-13 text-base font-bodyFont leading-6 tracking-wide"
+                  key={index}
+                >
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </div>
         </div>
