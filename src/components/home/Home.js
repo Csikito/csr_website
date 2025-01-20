@@ -6,11 +6,7 @@ import { Link } from "react-scroll";
 
 function Home({ content }) {
   const [textHun] = useTypewriter({
-    words: [
-      "Frontend Fejlesztő",
-      "Webfejlesztő",
-      "Autodidakta Módon Tanult Programozó",
-    ],
+    words: ["Python Fejlesztő", "Webfejlesztő", "SQL szakértő"],
     loop: true,
     typeSpeed: 40,
     deleteSpeed: 20,
@@ -18,11 +14,7 @@ function Home({ content }) {
   });
 
   const [textEng] = useTypewriter({
-    words: [
-      "Frontend Developer",
-      "Web Developer",
-      "Self-taught Frontend Programmer",
-    ],
+    words: ["Python Developer", "Web Developer", "SQL Specialist"],
     loop: true,
     typeSpeed: 40,
     deleteSpeed: 20,
@@ -49,7 +41,6 @@ function Home({ content }) {
           </h1>
 
           <h2 className="text-3xl font-bold dark:text-white text-black h-[100px] sml:h-[70px] pt-2">
-            {`${content.title_h1_2 ? "" : "a "}`}
             <span className="dark:text-blue-300   text-gray-600">{`${
               content.title_h1_2 ? textHun : textEng
             }`}</span>
