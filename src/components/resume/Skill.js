@@ -1,15 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiFillHtml5 } from "react-icons/ai";
 import {
-  FaCss3Alt,
   FaReact,
-  FaNodeJs,
   FaBootstrap,
   FaGithub,
+  FaPython,
+  FaDatabase,
 } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiFlask } from "react-icons/si";
 import skill__img from "../../assets/images/png/skill.png";
 
 function Skill({ content }) {
@@ -28,14 +27,14 @@ function Skill({ content }) {
         </div>
         <div className="w-full  flex flex-col gap-8 mdl:gap-20 mt-10 py-4 sml:py-16 px-2 sml:px-10 rounded-[5px] relative ">
           <div className=" w-[300px] h-[300px] rounded-full m-auto z-20 animate-rotate relative">
-            <div className="text-7xl text-orange-500 inline-block animate-rotate-negativ absolute top-0 left-0 ">
+            <div className="text-7xl text-yellow-300 inline-block animate-rotate-negativ absolute top-0 left-0 ">
               <div className="animate-wiggle">
-                <AiFillHtml5 />
+                <FaPython />
               </div>
             </div>
-            <div className="text-7xl text-blue-600 inline-block animate-rotate-negativ absolute top-0 right-0 ">
+            <div className="text-7xl text-white inline-block animate-rotate-negativ absolute top-0 right-0 ">
               <div className="animate-wiggle">
-                <FaCss3Alt />
+                <SiFlask />
               </div>
             </div>
             <div className="text-7xl text-yellow-500 inline-block animate-rotate-negativ absolute bottom-0 right-0">
@@ -48,9 +47,9 @@ function Skill({ content }) {
                 <FaReact />
               </div>
             </div>
-            <div className="text-7xl text-green-500 inline-block animate-rotate-negativ absolute top-28 left-8">
+            <div className="text-7xl text-green-400 inline-block animate-rotate-negativ absolute top-28 left-8">
               <div className="animate-wiggle">
-                <FaNodeJs />
+                <FaDatabase />
               </div>
             </div>
             <div className="text-7xl text-purple-500 inline-block animate-rotate-negativ absolute top-28 right-8">
